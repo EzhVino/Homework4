@@ -1,19 +1,20 @@
-
 // Задание 1
-// for (let i = 0; i < 11; i++) {
-//     if (i === 0) {
-//         console.log(`${i} - это ноль`);
-//     }
-//     else if (i % 2) {
-//         console.log(`${i} - нечетное число`);
-//     }
-//     else {
-//         console.log(`${i} - четное число`);
-//     }
-// }
+for (let i = 0; i < 11; i++) {
+    if (i === 0) {
+        console.log(`${i} - это ноль`);
+    }
+    else if (i % 2) {
+        console.log(`${i} - нечетное число`);
+    }
+    else {
+        console.log(`${i} - четное число`);
+    }
+}
 
-// // Задание 2
+//  Задание 2
 // const myArray = [1, 2, 3, 4, 5, 6, 7];
+// console.log(myArray);
+
 // const newArray = myArray.splice(3, 2);
 // console.log(myArray);
 
@@ -47,7 +48,8 @@
 // for (let i = 0; i < testArray.length; i++) {
 //     if (testArray[i] === 3) count++;
 // }
-// console.log(`Число 3 в массиве присутствует ${count} раз`);
+// console.log((count === 0) ? 'Числа 3 в массиве нет' : `Число 3 в массиве присутствует ${count} раз`);
+
 
 // Задание 4
 // const oneMoreArray = [];
@@ -68,17 +70,18 @@
 //     if (arr[i] === 3) count++;
 // }
 // console.log(arr);
-// console.log(`Число 3 в массиве присутствует ${count} раз`);
+// console.log(`Число 3 в массиве присутствует ${count} раз(а)`);
 
 // Задание 6
 // const collection = [1, 2, 3, 4, 5];
-// const newCollection = collection.splice(1, 2);
+// console.log(collection);
+
+// collection.splice(1, 2);
 // console.log(collection);
 
 // Задание 7
-
-let output = 'x';
-for (let index = 0; index < 20; index++) {
-    console.log(output);
-    output += 'х';
-}
+// let output = 'x';
+// for (let index = 0; index < 20; index++) {
+//     console.log(output);
+//     output += 'х';
+// }
